@@ -1,1 +1,1 @@
-console.log('Sousa Service Log loaded.');
+console.log('Sousa Service Log GitHub version loaded.');

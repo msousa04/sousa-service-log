@@ -2,13 +2,13 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('sousa-log-cache').then(function(cache) {
       return cache.addAll([
-        '/',
-        '/index.html',
-        '/style.css',
-        '/app.js',
-        '/manifest.json',
-        '/icon-192.png',
-        '/icon-512.png'
+        './',
+        './index.html',
+        './style.css',
+        './app.js',
+        './manifest.json',
+        './icon-192.png',
+        './icon-512.png'
       ]);
     })
   );

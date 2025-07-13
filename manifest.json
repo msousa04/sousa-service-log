@@ -1,11 +1,10 @@
 {
   "name": "Sousa's Service Log",
   "short_name": "SousaLog",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#1f2937",
   "theme_color": "#1f2937",
-  "orientation": "portrait",
   "icons": [
     {
       "src": "icon-192.png",
